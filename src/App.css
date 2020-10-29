@@ -29,8 +29,24 @@ code {
   width: 100%;
   border-radius: 10px;
   margin-top: 10px;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
 }
 
+.card .carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #666;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.card .carousel-indicators {
+  bottom: -20px;
+}
 
 .top-line {
   display: flex;
