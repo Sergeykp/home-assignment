@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome {
   display: flex;
-  flex-direction: column;
+  height: 100%;
+  flex: 1;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: auto;
+}
+.name {
+  font-size: 1.5rem;
+  margin: 15px;
+  text-align: center;
+}
+.final-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 5px;
+  color: #F80441
+}
+.card {
+  display: flex;
+  border: 1px solid #F0F0F0;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+.top-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.discount {
+  background-color: #F80441;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
   color: white;
+  width: 110px;
+  height: 25px;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.count {
+  color: #F80441;
+  font-size: 0.75rem;
+  text-align: left;
+  font-weight: bold;
+  margin-right: 15px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-btn {
+  border-radius: 30px;
+  margin: 0 25px 25px 25px;
+}
+.shop-btn {
+  background-color: #FE6D00;
+  color: #fff;
 }
